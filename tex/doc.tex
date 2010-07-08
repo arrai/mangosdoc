@@ -1,0 +1,24 @@
+\documentclass[12pt,a4pape]{scrbook}
+\usepackage[utf8]{inputenc}
+\usepackage[pdfborder={0 0 0}]{hyperref}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{colortbl}
+
+\newcommand{\todo}[1]{\marginpar{\textcolor{red}{TODO:} #1}}
+\usepackage[left=1.75cm,right=1.75cm,top=1.5cm,bottom=1.5cm,includeheadfoot]{geometry}
+
+\title{MaNGOS Documentation}
+\begin{document}
+    \maketitle
+    \newpage
+
+    \tableofcontents
+    \newpage
+
+    \input{chapters/introduction}
+    \newpage
+
+\end{document}
+
